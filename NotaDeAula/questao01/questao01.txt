@@ -1,0 +1,13 @@
+Questão 1 – Folha de Pagamento
+
+Uma indústria deseja automatizar o cálculo da folha mensal de pagamento de seus funcionários. O programa deve seguir as seguintes regras:
+
+a) Ler os dados de cada funcionário: matrícula, nome e salário bruto;
+
+b) Calcular o desconto do INSS, correspondente a 15% do salário bruto. O salário líquido é a diferença entre o salário bruto e o desconto do INSS;
+
+c) Exibir na tela o contracheque do funcionário, no formato indicado;
+
+Classe a ser criada: Funcionario
+• Atributos: matricula, nome, salarioBruto 
+• Métodos: calcularInss(), calcularSalarioLiquido(), exibirContracheque()
