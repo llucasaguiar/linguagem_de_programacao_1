@@ -1,0 +1,14 @@
+Questão 3 – Plataforma de Streaming
+
+Uma plataforma de streaming deseja organizar seu catálogo de títulos.
+O programa deve permitir as seguintes operações: 
+
+1. Cadastrar um título;
+2. Exibir os detalhes do título (nome, gênero, ano de lançamento e duração em minutos);
+3. Permitir que o usuário avalie o título com uma nota de 0 a 10; 
+4. Calcular e exibir a média das avaliações; 
+5. Encerrar o programa.
+
+Classe a ser criada: Filme 
+• Atributos: nome, genero, ano, duracao, somaNotas, qtdAvaliacoes 
+• Métodos: exibirDetalhes(), avaliar(int nota), calcularMediaAvaliacoes()
