@@ -1,0 +1,17 @@
+Questão 2 – Sistema Bancário
+
+Crie um programa que simule um sistema bancário simples.
+Inicialmente, o saldo é zero, e o cliente pode escolher uma das seguintes opções do menu: 
+• Consultar saldo 
+• Depositar 
+• Sacar 
+• Transferir 
+ 
+Observações:
+• O cliente só pode sacar ou transferir se houver saldo disponível. 
+• O menu deve ser exibido repetidamente, até que o usuário decida encerrar a execução.
+
+Classe a ser criada: ContaBancaria 
+• Atributos: numeroConta, titular, saldo 
+• Métodos: consultarSaldo(), depositar(double valor), sacar(double valor), 
+transferir(ContaBancaria destino, double valor)
