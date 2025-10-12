@@ -1,0 +1,25 @@
+Questão 4 – Herança e Relacionamento
+
+a) Crie uma hierarquia de classes para representar um sistema hospitalar.
+Considere que todo Médico possui atributos nome e CRM.
+Utilize herança para representar essa relação, destacando atributos e métodos específicos de cada especialidade.
+
+Classe base: Medico 
+Subclasses: 
+• ClinicoGeral  
+• Cirurgiao
+
+b) Crie uma hierarquia de classes para representar um sistema de vendas.
+O Cliente pode fazer um Pedido.
+O Vendedor é responsável por emitir o Pedido.
+Defina as classes necessárias e o relacionamento entre elas, 
+de forma que seja possível cadastrar clientes, vendedores e registrar pedidos realizados.
+
+Classes sugeridas: 
+• Cliente (atributos: nome, cpf) 
+• Vendedor (atributos: nome, matricula) 
+• Pedido (atributos: numero, data, valorTotal) 
+
+Relacionamentos: 
+• Um Cliente pode fazer vários pedidos. 
+• Um Vendedor pode emitir vários pedidos.
