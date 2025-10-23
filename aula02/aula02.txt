@@ -1,1 +1,1 @@
-Elabore um programa que calcule o IMC de uma pessoa
+Exercícios da aula 02.
